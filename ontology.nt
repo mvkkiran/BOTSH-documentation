@@ -1,0 +1,353 @@
+<http://purl.org/botsh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/botsh> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot> .
+<http://purl.org/botsh> <http://purl.org/dc/terms/created> "2022-06-29" .
+<http://purl.org/botsh> <http://purl.org/dc/terms/creator> "Ramesh Gowtham"@en .
+<http://purl.org/botsh> <http://purl.org/dc/terms/creator> "Vamsee Krishna Kiran Muppavarapu"@en .
+<http://purl.org/botsh> <http://purl.org/dc/terms/description> "Ontology extending the concepts related to Building Topology Ontology and its alignments."@en .
+<http://purl.org/botsh> <http://purl.org/dc/terms/modified> "2022-06-29" .
+<http://purl.org/botsh> <http://purl.org/dc/terms/title> "Building Topology Ontology for Smart Homes and Buildings (BOTSH)"@en .
+<http://purl.org/botsh> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Topology Ontology for Smart Homes and Buildings. BOT ontology is extended and aligned. Developed as part of PhD research work."@en .
+<http://purl.org/botsh> <http://www.w3.org/2002/07/owl#versionInfo> "v.1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/domainIncludes
+<https://schema.org/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/rangeIncludes
+<https://schema.org/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/botsh#adjacentElement
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#hasElement> .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://purl.org/botsh#intersectingElement> .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a zone and its adjacent building elements, bounding the zone."@en .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2000/01/rdf-schema#label> "adjacent element"@en .
+<http://purl.org/botsh#adjacentElement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#adjacentZone
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://purl.org/botsh#intersectsZone> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between two zones that share a common interface, but do not intersect."@en .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#label> "adjacent zone"@en .
+<http://purl.org/botsh#adjacentZone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#adjacentZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Space> .
+# 
+# http://purl.org/botsh#containsElement
+<http://purl.org/botsh#containsElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#hasElement> .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/botsh#containsZone> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/botsh#containsElement> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to a building element contained in a zone."@en .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2000/01/rdf-schema#label> "contains element"@en .
+<http://purl.org/botsh#containsElement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#containsThing
+<http://purl.org/botsh#containsThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#containsThing> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#hasThing> .
+<http://purl.org/botsh#containsThing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#containsThing> <http://www.w3.org/2000/01/rdf-schema#label> "contains thing"@en .
+<http://purl.org/botsh#containsThing> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#containsZone
+<http://purl.org/botsh#containsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship to the subzones of a major zone. A space zone could for instance be contained in a storey zone which is further contained in a building zone. botsh:containsZone is a transitive property. This implies that in the previous example a botsh:containsZone relationship holds between the space zone and the building zone."@en .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2000/01/rdf-schema#label> "contains zone"@en .
+<http://purl.org/botsh#containsZone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#containsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#containsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#containsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#containsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#containsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#containsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#containsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#containsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Space> .
+# 
+# http://purl.org/botsh#deviceMountedOn
+<http://purl.org/botsh#deviceMountedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#deviceMountedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#isPartOf> .
+<http://purl.org/botsh#deviceMountedOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#deviceMountedOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#hasBuilding
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#containsZone> .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to buildings contained in a zone. The typical domains of botsh:hasBuilding are instances of botsh:Site."@en .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#label> "has building"@en .
+<http://purl.org/botsh#hasBuilding> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#hasBuilding> <https://schema.org/domainIncludes> <http://purl.org/botsh#Site> .
+# 
+# http://purl.org/botsh#hasElement
+<http://purl.org/botsh#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#BuildingElement> .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/botsh#containsZone> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/botsh#hasElement> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Zone to an Element that is either contained in, adjacent to or intersecting with the Zone. The intended use of this relationship is not to be stated explicitly, but to be inferred from its sub-properties. It will, for example, allow one to query for all the doors of a building given that they have an adjacency to spaces of the building."@en .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2000/01/rdf-schema#label> "has element"@en .
+<http://purl.org/botsh#hasElement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#hasSpace
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#containsZone> .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to spaces contained in a zone. The typical domains of botsh:hasSpace are instances of botsh:BuildingStorey or botsh:Building."@en .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2000/01/rdf-schema#label> "has space"@en .
+<http://purl.org/botsh#hasSpace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#hasSpace> <https://schema.org/domainIncludes> <http://purl.org/botsh#BuildingStorey> .
+# 
+# http://purl.org/botsh#hasStorey
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#containsZone> .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to storeys contained in a zone. The typical domains of botsh:hasStorey are instances of botsh:Building."@en .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2000/01/rdf-schema#label> "has storey"@en .
+<http://purl.org/botsh#hasStorey> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#hasStorey> <https://schema.org/domainIncludes> <http://purl.org/botsh#Building> .
+# 
+# http://purl.org/botsh#hasSubElement
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#BuildingElement> .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#BuildingElement> .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between two building elements, either one element hosting another (e.g. a wall hosts a window) or a subcomposition of a building element into smaller parts (e.g. an air handling unit has as a part a fan)."@en .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#label> "has sub-element"@en .
+<http://purl.org/botsh#hasSubElement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#hasThing
+<http://purl.org/botsh#hasThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/botsh#isPartOf> .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#BuildingElement> .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Thing> .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2000/01/rdf-schema#label> "has thing"@en .
+<http://purl.org/botsh#hasThing> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#interfaceOf
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#BuildingInterface> .
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between an interface and another thing (building zone, element or owl:Thing)"@en .
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#label> "interface of"@en .
+<http://purl.org/botsh#interfaceOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#intersectingElement
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/botsh#hasElement> .
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Zone and a building Element that intersects it."@en .
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/2000/01/rdf-schema#label> "intersecting element"@en .
+<http://purl.org/botsh#intersectingElement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/botsh#intersectsZone
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between two zones whose 3D extent intersect. For example, a stairwell intersects different storeys."@en .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#label> "intersects zone"@en .
+<http://purl.org/botsh#intersectsZone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/domainIncludes> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Building> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#intersectsZone> <https://schema.org/rangeIncludes> <http://purl.org/botsh#Space> .
+# 
+# http://purl.org/botsh#isPartOf
+<http://purl.org/botsh#isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/botsh#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/botsh#Thing> .
+<http://purl.org/botsh#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/botsh#BuildingElement> .
+<http://purl.org/botsh#isPartOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/botsh#> .
+<http://purl.org/botsh#isPartOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/botsh#Building
+<http://purl.org/botsh#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Building> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#BuildingStorey> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#Building> <http://www.w3.org/2000/01/rdf-schema#comment> "An independent unit of the built environment with a characteristic spatial structure. A botsh:Building is a part of the physical world or a virtual world that is inherently botshh located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more building storeys that are vertically connected."@en .
+<http://purl.org/botsh#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building"@en .
+# 
+# http://purl.org/botsh#BuildingElement
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Element> .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#BuildingInterface> .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Thing> .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Constituent of a construction entity with a characteristic technical function. Example: Wall, Door, Window and Furniture"@en .
+<http://purl.org/botsh#BuildingElement> <http://www.w3.org/2000/01/rdf-schema#label> "Building Element"@en .
+# 
+# http://purl.org/botsh#BuildingInterface
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Interface> .
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Thing> .
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic concept to qualify the relationship of two or more things in the world, where at least one is a building element or zone. Example:\n    - A door between one room and another."@en .
+<http://purl.org/botsh#BuildingInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Building Interface"@en .
+# 
+# http://purl.org/botsh#BuildingStorey
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Storey> .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Site> .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. A botsh:BuildingStorey is contained in one or more buildings, and is intended to contain one or more spaces that are horizontally connected. Storeys of a building are connected by means of vertical connections such as elevators and stairs. A botsh:BuildingStorey encompasses both zones above and below ground, for example, a building with 21 floors above ground, one ground floor and 3 basements is equal to the sentence: A building has 25 instances of botsh:BuildingStorey."@en .
+<http://purl.org/botsh#BuildingStorey> <http://www.w3.org/2000/01/rdf-schema#label> "Building Storey"@en .
+# 
+# http://purl.org/botsh#Site
+<http://purl.org/botsh#Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#Site> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Site> .
+<http://purl.org/botsh#Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#Site> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Space> .
+<http://purl.org/botsh#Site> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently located in this world and having a 3D spatial extent. It is intended to contain or contains one or more buildings."@en .
+<http://purl.org/botsh#Site> <http://www.w3.org/2000/01/rdf-schema#label> "Site"@en .
+# 
+# http://purl.org/botsh#Space
+<http://purl.org/botsh#Space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#Space> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Space> .
+<http://purl.org/botsh#Space> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<http://purl.org/botsh#Space> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in."@en .
+<http://purl.org/botsh#Space> <http://www.w3.org/2000/01/rdf-schema#label> "Space"@en .
+# 
+# http://purl.org/botsh#Thing
+<http://purl.org/botsh#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#Thing> <http://www.w3.org/2002/07/owl#equivalentClass> <https://git.onem2m.org/MAS/BaseOntology/raw/master/base_ontology.owl#Thing> .
+<http://purl.org/botsh#Thing> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/botsh#Zone> .
+<http://purl.org/botsh#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "Thing is any entity that is either electronic or hydraulic. May or may not have communication capabilities. If it can communicate using digital medium, it becomes a device which is a subclass of Thing."@en .
+<http://purl.org/botsh#Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Thing" .
+# 
+# http://purl.org/botsh#Zone
+<http://purl.org/botsh#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/botsh#Zone> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/bot#Zone> .
+<http://purl.org/botsh#Zone> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently botsh located in this world and has a 3D spatial extent; Sub-classes of botsh:Zone include botsh:Site, botsh:Building, botsh:BuildingStorey, or botsh:Space.  An instance of botsh:Zone can contain other botsh:Zone instances, making it possible to group or subdivide zones. An instance of botsh:Zone can be adjacent to or intersecting other botsh:Zone instances. Finally, a botsh:Zone can instantiate three relations to botsh:BuildingElement, which are either contained in (botsh:containsElement), adjacent to it (botsh:adjacentElement) or intersecting (botsh:intersectingElement)."@en .
+<http://purl.org/botsh#Zone> <http://www.w3.org/2000/01/rdf-schema#label> "Zone"@en .
+# 
+# https://git.onem2m.org/MAS/BaseOntology/raw/master/base_ontology.owl#Thing
+<https://git.onem2m.org/MAS/BaseOntology/raw/master/base_ontology.owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Building
+<https://w3id.org/bot#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Interface
+<https://w3id.org/bot#Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Site
+<https://w3id.org/bot#Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Space
+<https://w3id.org/bot#Space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Storey
+<https://w3id.org/bot#Storey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
